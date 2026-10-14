@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Leen Bajunaid — Cybersecurity Specialist &amp; Software Developer</title>
-<meta name="description" content="CV of Leen Bajunaid: cybersecurity specialist and software developer in Jeddah, Saudi Arabia. FortiGate, Wazuh SIEM, networking, React, Python, Flask and API integration.">
+<meta name="description" content="CV of Leen Bajunaid: cybersecurity specialist and software developer in Jeddah, Saudi Arabia. FortiGate and Palo Alto firewalls, Wazuh SIEM, EDR/NDR, GRC, networking, React, Python and API integration.">
 <meta name="author" content="Leen Bajunaid">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Leen Bajunaid — Cybersecurity Specialist &amp; Software Developer">
@@ -55,7 +55,7 @@
 
   <section aria-labelledby="profile">
     <h2 id="profile">Profile</h2>
-    <p>Cybersecurity specialist and software developer who secures networks and builds web applications. Deploys FortiGate firewalls, network infrastructure and cabling, Wazuh SIEM, and EDR; develops React/TypeScript front ends, Python/Flask back ends, and third-party API integrations. EC-Council Certified SOC Analyst and certified Odoo 19 Project Leader.</p>
+    <p>Cybersecurity specialist and software developer who secures networks and builds web applications. Deploys FortiGate firewalls, segmented networks, Wazuh SIEM, and EDR, and supports GRC and compliance; develops React/TypeScript front ends, Python/Flask back ends, and API integrations. EC-Council Certified SOC Analyst and certified Odoo 19 Project Leader.</p>
   </section>
 
   <section aria-labelledby="experience">
@@ -68,12 +68,13 @@
       </div>
       <p class="org">Attar Software Engineering · Jeddah, Saudi Arabia</p>
       <ul class="points">
-        <li>Deployed and configured <strong>FortiGate</strong> firewalls across office and remote sites, including security policies, network segmentation, and secure access control.</li>
-        <li>Set up and maintained office <strong>network infrastructure</strong>, including network cabling, connectivity, and troubleshooting.</li>
-        <li>Built centralised security monitoring on <strong>Wazuh SIEM</strong> with endpoint agents for log collection and threat detection, and rolled out <strong>antivirus/EDR</strong> to all workstations.</li>
-        <li>Developed a <strong>hospital appointment and patient-management system</strong> with double-booking prevention, insurance-eligibility API integration, and automated SMS confirmations (Oracle APEX, PL/SQL).</li>
-        <li>Integrated the <strong>WhatsApp Business Cloud API</strong> to automate event invitations and reminders, with delivery-status tracking.</li>
-        <li>Developed and maintained <strong>ERP modules</strong> and internal business applications that automate manual departmental workflows.</li>
+        <li>Deployed and configured the office <strong>FortiGate 70F</strong> next-generation firewall: security policies, secure access control and UTM security profiles; restored antivirus inspection on the database-server policy after a licence-expiry incident.</li>
+        <li>Integrated a <strong>FortiGate 40F</strong> (FortiOS 7.4) as the firewall for a residential site in <strong>transparent (bridge) mode</strong>, adding inline FortiGuard UTP threat protection without re-addressing the existing network.</li>
+        <li>Configured the <strong>office network</strong>: VLAN segmentation separating servers from user endpoints, firewall policies between segments, static IP addressing, network cabling, and connectivity troubleshooting.</li>
+        <li>Set up <strong>Wazuh SIEM</strong>: Ubuntu (WSL2) manager on a static-IP host in the server VLAN, port forwarding for agent, enrolment and API traffic (1514/1515/55000), and endpoint agents for centralised log collection and threat detection.</li>
+        <li>Supported cybersecurity <strong>GRC and compliance</strong>: baseline controls (<strong>antivirus/EDR</strong> on all workstations, role-based access in internal apps) and formal deployment documentation with network diagrams, CLI reference and sign-off.</li>
+        <li>Automated messaging through REST APIs from PL/SQL: the <strong>WhatsApp Business Cloud API</strong> for event invitations and reminders with delivery-status tracking, and an <strong>SMS gateway API</strong> for appointment confirmations.</li>
+        <li>Built a <strong>hospital appointment and patient-management system</strong> and <strong>ERP modules</strong>.</li>
       </ul>
     </article>
 
@@ -96,8 +97,9 @@
       </div>
       <p class="org">Bupa Health Care Insurance · Jeddah, Saudi Arabia</p>
       <ul class="points">
-        <li>Handled email security incidents, including sender reputation verification and malicious IP blocking.</li>
-        <li>Monitored security events, investigated proxy issues, and resolved EDR/NDR problems.</li>
+        <li>Handled email security incidents and triaged <strong>user-reported suspicious emails</strong> for phishing: analysed message headers, validated <strong>SPF, DKIM and DMARC</strong> results, verified sender reputation, and blocked malicious IPs on <strong>Palo Alto</strong> firewalls.</li>
+        <li>Monitored and investigated security events on <strong>EDR</strong> and <strong>NDR</strong> platforms, and resolved EDR/NDR issues.</li>
+        <li>Wrote <strong>incident and problem reports</strong> for every case, reviewed <strong>internal server security</strong>, and investigated proxy issues.</li>
       </ul>
     </article>
   </section>
@@ -133,8 +135,8 @@
   <section aria-labelledby="skills">
     <h2 id="skills">Technical Skills</h2>
     <dl class="skills">
-      <div><dt>Cybersecurity</dt><dd>Wazuh SIEM, EDR/Antivirus, Security Monitoring, Threat Detection, Incident Response, Email Security, Nmap, Wireshark, Nikto, Hydra, iptables</dd></div>
-      <div><dt>Networking</dt><dd>FortiGate (FortiOS) Firewalls, Firewall Policies, Network Segmentation, Secure Access Control, Network Cabling, Network Setup &amp; Troubleshooting</dd></div>
+      <div><dt>Cybersecurity</dt><dd>Wazuh SIEM, EDR/NDR, Antivirus, GRC &amp; Compliance, Security Monitoring, Threat Detection, Incident Response, Phishing Analysis, Email Security (SPF, DKIM, DMARC), Nmap, Wireshark, Nikto, Hydra, iptables</dd></div>
+      <div><dt>Networking</dt><dd>FortiGate 70F/40F (FortiOS) and Palo Alto Firewalls, Transparent (Bridge) Mode, Firewall Policies, VLANs &amp; Network Segmentation, Secure Access Control, Network Cabling, Network Setup &amp; Troubleshooting</dd></div>
       <div><dt>Programming</dt><dd>Python, Java, JavaScript, TypeScript, SQL, PL/SQL</dd></div>
       <div><dt>Web &amp; APIs</dt><dd>React, React Native, Flask, Node.js, Express.js, REST APIs, Third-Party API Integration</dd></div>
       <div><dt>Data &amp; Platforms</dt><dd>MySQL, Oracle Database, SQLite, Docker, Oracle APEX, Odoo 19 ERP</dd></div>
